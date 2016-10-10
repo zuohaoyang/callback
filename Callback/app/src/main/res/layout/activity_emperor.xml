@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmperorActivity">
+    <Button
+        android:id="@+id/m_go_eunuch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="让太监去挑选一个人去打酱油"/>
+    <TextView
+        android:id="@+id/m_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="到底是谁打的酱油？？？？"/>
+</LinearLayout>

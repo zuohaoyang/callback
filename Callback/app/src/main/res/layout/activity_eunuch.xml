@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EunuchActivity">
+    <Button
+        android:id="@+id/m_btn1"
+        android:text="张三去打酱油"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="publicOnClick"/>
+    <Button
+        android:id="@+id/m_btn2"
+        android:text="李四去打酱油"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:onClick="publicOnClick"/>
+    <Button
+        android:id="@+id/m_btn3"
+        android:text="王五去打酱油"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:onClick="publicOnClick"/>
+    <Button
+        android:id="@+id/m_btn4"
+        android:text="赵六去打酱油"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:onClick="publicOnClick"/>
+</LinearLayout>
